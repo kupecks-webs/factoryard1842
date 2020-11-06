@@ -43,6 +43,10 @@ a {
 .ap:active {
     color: #1E6C93;
 }
+.text {
+    font-size: 20px;
+    
+}
 .heading {
     font-size: 50px;
 }
