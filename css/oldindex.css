@@ -50,3 +50,13 @@ a {
 .heading {
     font-size: 50px;
 }
+@media screen and (max-width: 1000px) {
+    .teal {
+        right: 0;
+        bottom: 50%;
+    }
+    .pink {
+        left: 0;
+        top: 50%;
+    }
+}
