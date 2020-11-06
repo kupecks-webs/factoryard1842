@@ -9,14 +9,23 @@ body {
     left: 0;
     bottom: 0;
     right: 50%;
-    text-align: center;
+    transition: right 0.6125s ease-in-out;
+}
+.teal:hover {
+    z-index: 1;
 }
 .tealtext {
-    position: relative;
-    top: 40%;
-    left: 50%;
+    position: absolute;
+    top: 42%;
+    left: 25%;
     color: #fff;
+    text-align: center;
     transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.tealtext:hover ~ .teal {
+    right: 49.5%;
+    z-index: 2;
 }
 .pink {
     background-color: #E76B67;
@@ -25,14 +34,23 @@ body {
     left: 50%;
     bottom: 0;
     right: 0;
-    text-align: center;
+    transition: left 0.6125s ease-in-out;
+}
+.pink:hover {
+    z-index: 1;
 }
 .pinktext {
-    position: relative;
-    top: 40%;
-    left: 50%;
+    position: absolute;
+    top: 42%;
+    left: 75%;
     color: #fff;
+    text-align: center;
     transform: translate(-50%, -50%);
+    z-index: 3;
+}
+.pinktext:hover ~ .pink{
+    left: 49.5%;
+    z-index: 2;
 }
 a {
     color: #fff;
@@ -54,9 +72,19 @@ a {
     .teal {
         right: 0;
         bottom: 50%;
+        transition: bottom 2s ease-in-out;
+    }
+    .teal:hover {
+        bottom: 45%;
+        z-index: 1;
     }
     .pink {
         left: 0;
         top: 50%;
+        transition: top 2s ease-in-out;
+    }
+    .pink:hover {
+        bottom: 45%;
+        z-index: 1;
     }
 }
