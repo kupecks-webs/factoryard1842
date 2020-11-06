@@ -9,7 +9,7 @@ body {
     left: 0;
     bottom: 0;
     right: 50%;
-    transition: right 0.6125s ease-in-out;
+    transition: right 0.5s ease-in-out;
 }
 .teal:hover {
     z-index: 1;
@@ -34,7 +34,7 @@ body {
     left: 50%;
     bottom: 0;
     right: 0;
-    transition: left 0.6125s ease-in-out;
+    transition: left 0.5s ease-in-out;
 }
 .pink:hover {
     z-index: 1;
