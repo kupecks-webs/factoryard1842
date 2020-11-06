@@ -35,10 +35,13 @@ body {
     transform: translate(-50%, -50%);
 }
 a {
-    color: yellow;
+    color: #fff;
 }
-a:active {
-    color: pink;
+.at:active {
+    color: #E76B67;
+}
+.ap:active {
+    color: #1E6C93;
 }
 .heading {
     font-size: 50px;

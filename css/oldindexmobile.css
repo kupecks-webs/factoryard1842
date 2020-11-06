@@ -35,7 +35,7 @@ body {
     transform: translate(-50%, -50%);
 }
 a {
-    color: yellow;
+    color: #fff;
 }
 a:active {
     color: pink;
