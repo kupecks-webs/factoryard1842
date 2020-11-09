@@ -3,6 +3,24 @@
     --c-main: #E76B67;
     --c-background: #FFFFFF;
 }
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 65px;
+}
+ul li {
+    list-style: none;
+    float: left;
+    line-height: 65px;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: #d4d4d4;
+    padding: 0 20px;
+    transition: background-color .25s ease-in-out;
+}
 body {
     background-color: var(--c-background);
     font-family: 'Lexend Deca', sans-serif;
