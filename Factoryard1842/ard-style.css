@@ -1,1 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+:root {
+    --c-main: #1e6c93;
+    --c-bg: #ffffff;
+    --c-sec-bg: #d4d4d4;
+}
+body {
+    background-color: var(--c-bg);
+    font-family: 'Lexend Deca', sans-serif;
+}
+nav {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 40px;
+}
+nav ul {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+}
+nav ul li {
+    position: relative;
+    top: 0;
+    left: 0;
+    margin-right: 0;
+    list-style: none;
+    float: left;
+    display: block;
+    text-decoration: none;
+    font-size: 16px;
+    color: var(--c-main);
+    padding: 20px;
+    border-radius: 0;
+    border-style: solid;
+    border-width: 0;
+    transition: color .25s ease-in-out;
+    transition: background-color .25s ease-in-out;
+    transition: line-height .25s ease-in-out;
+    transition: border-top-width .25s ease-in-out;
+    box-sizing: border-box;
+}
+nav ul li:hover {
+    border-top-width: 7.5px;
+}
+nav ul li:active {
+    color: var(--c-main);
+    background-color: #000;
+}
+h1 {
+    font-size: 75px;
+}
+h2 {
+    font-size: 45px;
+}
+h3 {
+    font-size: 25px;
+}
+p {
+    font-size: 12px;
+}
