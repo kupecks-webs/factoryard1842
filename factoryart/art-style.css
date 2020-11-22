@@ -48,7 +48,7 @@ nav ul li:hover {
 }
 nav ul li:active {
     color: var(--c-main);
-    background-color: #000;
+    background-color: var(--c-sec-bg);
 }
 h1 {
     font-size: 75px;
