@@ -37,8 +37,8 @@ nav ul li {
     border-radius: 0;
     border-style: solid;
     border-width: 0;
-    transition: color .25s ease-in-out;
     transition: background-color .25s ease-in-out;
+    transition: color .25s ease-in-out;
     transition: line-height .25s ease-in-out;
     transition: border-top-width .25s ease-in-out;
     box-sizing: border-box;
