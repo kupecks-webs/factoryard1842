@@ -3,6 +3,7 @@
     --c-main: #e76b67;
     --c-bg: #ffffff;
     --c-sec-bg: #d4d4d4;
+    --c-black: #000000;
 }
 body {
     background-color: var(--c-bg);
@@ -18,7 +19,8 @@ nav {
 nav ul {
     position: fixed;
     top: 0;
-    left: 0;
+    left: 50%;
+    transform: translate(-50%);
     margin: 0;
     padding: 0;
 }
@@ -47,8 +49,8 @@ nav ul li:hover {
     border-top-width: 7.5px;
 }
 nav ul li:active {
-    color: var(--c-main);
-    background-color: var(--c-sec-bg);
+    color: var(--c-black);
+    border-color: var(--c-black)
 }
 nav ul li.current {
     border-top-width: 7.5px;
