@@ -16,7 +16,7 @@ nav {
     height: 40px;
 }
 nav ul {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     margin: 0;
@@ -49,6 +49,10 @@ nav ul li:hover {
 nav ul li:active {
     color: var(--c-main);
     background-color: var(--c-sec-bg);
+}
+nav ul li.current {
+    border-top-width: 7.5px;
+    padding: 12.5px 20px;
 }
 h1 {
     font-size: 75px;
