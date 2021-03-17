@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca&display=swap');
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: #826c7d;
+}
+.teal {
+    background-color: #1E6C93;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 50%;
+    z-index: 3;
+    transition: all 0.5s ease;
+}
+.tealtext {
+    position: relative;
+    top: 42%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 4;
+}
+.pink {
+    background-color: #E76B67;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+    transition: all 0.5s ease;
+}
+.pinktext {
+    position: relative;
+    top: 42%;
+    left: 50%;
+    color: #fff;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+a {
+    color: #fff;
+}
+.at:active {
+    color: #E76B67;
+}
+.ap:active {
+    color: #1E6C93;
+}
+.text {
+    font-size: 20px;
+}
+.heading {
+    font-size: 50px;
+}
+@media screen and (max-width: 960px) {
+    .teal {
+        right: 0;
+        bottom: 50%;
+    }
+    .pink {
+        left: 0;
+        top: 50%;
+    }
+}
